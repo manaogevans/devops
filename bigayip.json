@@ -1,0 +1,17 @@
+{
+    "Cisco-IOS-XE-native:GigabitEthernet":{
+        "name": "2",
+        "description":"GigabitEthernet2LAN",
+        "ip": {
+            "address": {
+                "primary":{
+                    "address":"192.168.102.16",
+                    "mask":"255.255.255.0"
+                }
+            }
+        },
+        "Cisco-IOS-XE-ethernet:negotiation":{
+            "auto": true
+        }
+    }
+}
